@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <h1>About Me</h1>
+    <h1>About Us</h1>
     <img class="profile-picture" src="../assets/Felix_Argyle.png">
-    <h3>Hewo I am Sebastian or as I go online A-Boring-Square</h3>
+    <h3>Hewo We are a plural system called "The Calming Breeze" or as we go online A-Boring-Square</h3>
     <br>
     <p>
       
