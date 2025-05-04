@@ -13,8 +13,8 @@
       Our system consists of multiple facets working together. At the core are:
     </p>
     <ul>
-      <li><strong>Sebastian</strong> – The most often fronter and logical core of the system. Focused on structured thinking, technical execution, and analytical problem-solving.</li>
-      <li><strong>Sarah</strong> – Emotionally driven and deeply intuitive, Sarah complements Sebastian by processing and guiding the emotional, creative, and interpersonal aspects of our system's experiences.</li>
+      <li><strong>Square</strong> – The most often fronter and logical core of the system. Focused on structured thinking, technical execution, and analytical problem-solving.</li>
+      <li><strong>Sarah</strong> – Emotionally driven and deeply intuitive, Sarah complements Square by processing and guiding the emotional, creative, and interpersonal aspects of our system's experiences.</li>
     </ul>
     <p>
       Though we are closely intertwined, each of us brings a unique perspective to our work, allowing us to function both cohesively and dynamically.
