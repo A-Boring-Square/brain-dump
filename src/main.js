@@ -9,8 +9,8 @@ import About from './pages/About.vue'
 
 // Define routes
 const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/about', name: 'About Me', component: About }
+  { path: '/brain-dump/', name: 'Home', component: Home },
+  { path: '/brain-dump/about', name: 'About Me', component: About }
 ]
 
 // Create router instance
