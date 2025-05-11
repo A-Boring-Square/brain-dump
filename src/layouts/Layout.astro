@@ -1,0 +1,122 @@
+---
+// Layout.astro
+const { title} = Astro.props;
+---
+
+
+<head>
+	<title>{title}</title>
+	<meta charset="UTF-8" />
+</head>
+
+<nav>
+  <a href="/" class="nav-link"><h4>Home</h4></a>
+  <a href="/about" class="nav-link"><h4>About</h4></a>
+  <a href="/blogs" class="nav-link"><h4>Blogs</h4></a>
+</nav>
+
+<main class="content-area">
+  <slot />
+</main>
+
+<style>
+:root{
+	--bg-color: #0d1117;
+	--card-bg: #161b22;
+	--text-color: #c9d1d9;
+	--muted-text: #8b949e;
+	--accent-color: #58a6ff;
+	--border-color: #30363d;
+	--hover-color: #1f6feb;
+	--font-sans: "Inter", sans-serif
+}
+body{
+	margin:0;
+	font-family:var(--font-sans);
+	background-color:var(--bg-color);
+	color:var(--text-color);
+	line-height:1.6
+}
+a{
+	color:var(--accent-color);
+	text-decoration:none;
+	transition:color .2s ease
+}
+a:hover{
+	color:var(--hover-color)
+}
+header{
+	padding:1rem 2rem;
+	border-bottom:1px solid var(--border-color);
+	background-color:var(--card-bg);
+	font-size:1.5rem;
+	font-weight:700;
+	color:var(--accent-color)
+}
+.card{
+	background-color:var(--card-bg);
+	border:1px solid var(--border-color);
+	border-radius:10px;
+	width:fit-content;
+	padding:1.5rem;
+	margin-bottom:1.5rem;
+	box-shadow:0 2px 5px #0003
+}
+.card h2{
+	margin-top:0;
+	color:var(--accent-color)
+}
+.card p{
+	margin-bottom:0;
+	color:var(--text-color)
+}
+footer{
+	text-align:center;
+	padding:1rem;
+	font-size:.9rem;
+	color:var(--muted-text);
+	border-top:1px solid var(--border-color);
+	margin-top:2rem
+}
+code{
+	background-color:#12111b;
+	border-radius:2px
+}
+.content-area{
+	margin:1%
+}
+nav{
+	background-color:var(--accent-color);
+	color:var(--color-text);
+	padding-left:1%;
+	display:flex;
+	gap:1rem;
+	align-items:center
+}
+nav a{
+	color:var(--color-text);
+	text-decoration:none;
+	font-weight:500
+}
+.current-page\{
+	margin-left:auto;
+	padding-right:1%;
+	font-style:italic
+}
+.profile-picture{
+	width:150px;
+	height:150px;
+	object-fit:cover;
+	border-radius:50%;
+	border:3px solid var(--accent-color, #58a6ff);
+	box-shadow:0 0 15px #58a6ff4d
+}
+
+.muted {
+  color: var(--muted-text);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+ 
+</style>
